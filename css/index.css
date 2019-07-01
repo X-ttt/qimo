@@ -1,0 +1,398 @@
+/* 一屏的高度 */
+html,body,.main{
+    height:100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}  
+
+.swiper-button-next{
+    width:0.5rem;
+    height:0.4rem;
+    background:url("../images/arrow.png") center center no-repeat;
+    background-size:cover;
+    position:absolute;
+    bottom:0.4rem;
+    left:50%;
+    margin-left:-0.25rem;
+    top:auto;
+    animation: slideInUp 1s infinite;
+}
+
+@-webkit-keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+/* 第一页 */
+.page1>img{
+    position:absolute;
+}
+.page1{
+   background:url("../images/bei.jpg")  center center no-repeat;
+   background-size: cover;
+   position:relative;
+}
+
+
+.jianli{
+    width:100%;
+    bottom:1.5rem;
+    left:0;
+
+}
+
+/* 第二页 */
+.page2{
+    position:relative;
+}
+.page2>img{
+    position:absolute;
+}
+.page2{
+    background:url("../images/2beijing.jpg") center center no-repeat;
+    background-size:cover;
+}
+
+
+.jieshao{
+    position:absolute;
+    width:3.7rem;
+    height: 1.5rem;
+    left:0.4rem;
+    top:1.7rem;
+    
+}
+.tu1{
+    position:absolute;
+    width: 2.8rem;
+    height: 3.1rem;
+    top:5rem;
+    background-size: cover;
+
+}
+.tu2{
+    position:absolute;
+    width: 2.8rem;
+    height: 3.1rem;
+    top:5rem;
+    background-size: cover;
+    left: 3.5rem;
+
+}
+
+.textContent{
+    position:absolute;
+    font-size:0.4rem;
+    left:0.5rem;
+    top:3.5rem;
+    line-height:0.65rem;
+    color:burlywood;
+}
+/* 相框 */
+
+.phoeto{
+    width: 4rem;
+    height: 7rem;
+    top: -0.5rem;
+    right: -1rem;
+    margin: 0 auto;
+    position: relative;
+    animation:run 5s linear infinite;
+    transform-origin: center top;
+
+}
+@keyframes run{
+    0%{
+        transform:rotate(0deg);  
+    }
+    25%{
+        transform:rotate(10deg); 
+    }
+    50%{
+        transform:rotate(0deg); 
+    }
+   75%{
+        transform:rotate(-5deg);  
+    }
+}
+
+
+/* page3 */
+
+.phoeto2{
+    width: 4rem;
+    height: 7rem;
+    top: -0.5rem;
+    right: -1rem;
+    margin: 0 auto;
+    position: relative;
+    animation:run 5s linear infinite;
+    transform-origin: center top;
+
+}
+@keyframes run{
+    0%{
+        transform:rotate(0deg);  
+    }
+    25%{
+        transform:rotate(10deg); 
+    }
+    50%{
+        transform:rotate(0deg); 
+    }
+   75%{
+        transform:rotate(-5deg);  
+    }
+}
+
+.page3{
+    background:url("../images/2beijing.jpg") center center no-repeat;
+    background-size:cover;
+}
+
+.textContent2{
+    position:absolute;
+    font-size:0.8rem;
+    left:0.4rem;
+    top:2rem;
+    line-height:0.7rem;
+    color:black;
+}
+
+
+
+.page3>img{
+    position: absolute;
+}
+
+.kuang1{
+    background: url("kuang.png");
+    position: absolute;
+    background-size: cover;
+    width: 3rem;
+    top: 1.1rem;
+    right: -1.7rem;
+}
+
+
+
+.tu3{
+    position: absolute;
+    width: 2rem;
+    height: 3rem;
+    top: 1.7rem;
+    background-size: cover;
+    left: 2.3rem;
+}
+.tu4{
+    position: absolute;
+    width: 2rem;
+    height: 3rem;
+    top: 6.9rem;
+    background-size: cover;
+    left: 0.5rem;
+}
+.kuang2{
+    background: url(kuang.png);
+    position: absolute;
+    background-size: cover;
+    width: 3rem;
+    top: 6rem;
+    left: 0.1rem;
+}
+.tu9{
+    position: absolute;
+    width: 2.4rem;
+    height: 3.4rem;
+    top: 6.8rem;
+    background-size: cover;
+    left: 4.1rem;
+}
+.kuang3{
+    background: url("kuang.png");
+    position: absolute;
+    background-size: cover;
+    width: 3rem;
+    top: 6rem;
+    left: 3.8rem;
+}
+
+.music{
+   width:1rem;
+   height:1rem;
+   background:url("../images/5.png") center center no-repeat;
+   background-size:cover;
+   position: absolute;
+   left:0.2rem;
+   top:0.2rem;
+   z-index:999;
+   border-radius:50%;
+   animation: music 2s linear infinite;
+}
+
+@keyframes music{
+    100%{
+        transform:rotate(360deg);  
+    }
+    
+}
+/* page4 */
+.page4>img{
+    position: absolute;
+}
+.page4{
+    background:url("../images/2beijing.jpg") center center no-repeat;
+    background-size:cover;
+}
+
+.phoeto3{
+    width: 4rem;
+    height: 7rem;
+    top: -0.5rem;
+    right: -1rem;
+    margin: 0 auto;
+    position: relative;
+    animation:run 5s linear infinite;
+    transform-origin: center top;
+
+}
+@keyframes run{
+    0%{
+        transform:rotate(0deg);  
+    }
+    25%{
+        transform:rotate(10deg); 
+    }
+    50%{
+        transform:rotate(0deg); 
+    }
+   75%{
+        transform:rotate(-5deg);  
+    }
+}
+
+.tu10{
+    position: absolute;
+    width: 2rem;
+    height: 3rem;
+    top: 1.7rem;
+    background-size: cover;
+    left: 2.3rem;
+}
+.kuang4{
+       background: url(kuang.png);
+    position: absolute;
+    background-size: cover;
+    width: 3rem;
+    top: 3rem;
+    right: 2.5rem;
+}
+.tu5{
+    position: absolute;
+    width: 2.3rem;
+    height: 3.3rem;
+    top: 8.7rem;
+    background-size: cover;
+    left: 2.3rem;
+}
+.kuang5{
+    background: url(kuang.png);
+    position: absolute;
+    background-size: cover;
+    width: 3rem;
+    top: 8rem;
+    right: 2.5rem;
+}
+
+.tu6{
+    position: absolute;
+    width: 2.3rem;
+    height: 3.3rem;
+    top: 3.7rem;
+    background-size: cover;
+    left: 2.3rem;
+}
+
+
+
+
+/* page5 */
+
+.tu11{
+    position: absolute;
+    left: 0.5rem;
+    top: 1.5rem;
+    width: 6rem;
+    height: 6rem;
+   
+}
+
+.phoeto5{
+    width: 4rem;
+    height: 7rem;
+    top: -0.5rem;
+    right: -1rem;
+    margin: 0 auto;
+    position: relative;
+    animation:run 5s linear infinite;
+    transform-origin: center top;
+
+}
+@keyframes run{
+    0%{
+        transform:rotate(0deg);  
+    }
+    25%{
+        transform:rotate(10deg); 
+    }
+    50%{
+        transform:rotate(0deg); 
+    }
+   75%{
+        transform:rotate(-5deg);  
+    }
+}
+
+.page6{
+    background:url("../images/2beijing.jpg") center center no-repeat;
+    background-size:cover;
+}
+
+.textContent6{
+    position:absolute;
+    font-size:0.8rem;
+    left:0.4rem;
+    top:2rem;
+    line-height:0.7rem;
+    color:black;
+}
+
+
+
+.page6>img{
+    position: absolute;
+}
